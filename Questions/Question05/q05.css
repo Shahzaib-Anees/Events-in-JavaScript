@@ -1,0 +1,32 @@
+.counter-container {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 30px 50px;
+}
+
+h4 , p{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.button-container{
+    display: flex;
+    padding: 10px 20px;
+    gap: 30px;
+}
+
+.button-container > .counter_button{
+    width: fit-content;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #4a4a4a;
+    color: #fff;
+    border-radius: 10px;
+}
